@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art and Stories | ShowMeStuff Art Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Discover captivating art exhibitions at ShowMeStuff Museum. Explore our latest exhibits, featuring diverse and inspiring works from artists around the world.">
+</head>
+<body>
+    <header class="navigation-container">
+        <nav class="navigation">
+            <div class="burger-menu" id="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="ticketvisit.html" class="link">Tickets and Visit</a></li>
+                <li><a href="art-and-stories.html" class="active-link">Art and Stories</a></li>
+                <li><a href="about.html" class="link">About</a></li>
+            </ul>
+            <a href="index.html"><img src="images/logo.jpeg" alt="Logo" class="logo jello-horizontal"></a>
+        </nav>
+    </header>
+    <main class="maincontent-container">
+        <section class="artists-showcase">
+            <h1>Artists Showcase</h1>
+            <p class="description">Welcome to our Artists Showcase! Here, you can listen to our talented artists talk about their creative journeys and watch them in action as they bring their art to life.</p>
+    
+            <!-- Artist 1 -->
+            <div class="artist">
+                <h3 id="zephyr">Exhibition 1: Zephyr Vox</h3>
+                <p>A master of light and shadow, Zephyr’s ethereal landscapes evoke a sense of longing. Her canvases are portals to otherworldly realms, where mist-shrouded forests meet celestial skies.</p>
+                <audio controls class="audioelement">
+                    <source src="audio/zephyr-talk.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video controls class="videoelement">
+                    <source src="video/zephyr-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <!-- Artist 2 -->
+            <div class="artist">
+                <h3 id="luna">Exhibition 2: Luna Mirage</h3>
+                <p>Luna’s sculptures defy gravity, suspended in a delicate dance between dream and reality. His use of iridescent materials creates an illusion of movement, inviting viewers to explore the intangible.</p>
+                <audio controls class="audioelement">
+                    <source src="audio/luna-talk.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video controls class="videoelement">
+                    <source src="video/luna-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <!-- Artist 3 -->
+            <div class="artist">
+                <h3 id="nyx">Exhibition 3: Nyx Solstice</h3>
+                <p>Nyx’s digital art pulses with energy, blending ancient symbols with futuristic aesthetics. Her glitched portraits reveal hidden layers of emotion, echoing the cosmic cycles of night and day.</p>
+                <audio controls class="audioelement">
+                    <source src="audio/nyx-talk.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video controls class="videoelement">
+                    <source src="video/nyx-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
+    
+    <script src="javascript/burgermenu.js"></script>
+</body>
+</html>

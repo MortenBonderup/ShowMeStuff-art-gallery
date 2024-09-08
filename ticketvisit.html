@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets and Visits | ShowMeStuff Art Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <meta name="description" content="Get in touch with us for any inquiries, support, or feedback. We're here to help! Contact us today.">
+</head>
+<body>
+    <header class="navigation-container">
+        <nav class="navigation">
+            <div class="burger-menu" id="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="ticketvisit.html" class="active-link">Tickets and Visit</a></li>
+                <li><a href="art-and-stories.html" class="link">Art and Stories</a></li>
+                <li><a href="about.html" class="link">About</a></li>
+            </ul>
+            <a href="index.html"><img src="images/logo.jpeg" alt="Logo" class="logo jello-horizontal"></a>
+        </nav>
+    </header>
+    <main class="maincontent-container">
+        <h1>Tickets and Visits</h1>
+        <section id="tickets" class="variousinformation">
+            
+            <div>
+                <h3>Ticket Prices</h3>
+                <p>Adults: $15</p>
+                <p>Children (5-12): $10</p>
+                <p>Students: $12</p>
+                <p>Seniors (65+): $10</p>
+                </div>
+
+            <div>
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday: 10:00 AM - 6:00 PM</p>
+            <p>Saturday - Sunday: 11:00 AM - 5:00 PM</p>
+            </div>
+
+            <div>
+            <h3>Address and Contact Information</h3>
+            <p>123 Art Street, Art City, AC 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@showmestuff.com</p>
+            </div>
+
+
+        </section>
+
+        <h3>Location</h3>
+        <div id="map" class="mapstyle"></div>
+    </main>
+
+    <script src="javascript/burgermenu.js"></script>
+    <script src="javascript/map.js"></script>
+</body>
+</html>
