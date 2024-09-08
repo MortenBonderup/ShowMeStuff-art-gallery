@@ -102,6 +102,7 @@
     flex-direction: column;
     gap: 20px; /* Adjust the spacing between banners */
     height: 100vh;
+    margin-bottom: 20px;
 }
 
 .banner {
@@ -110,6 +111,7 @@
     padding: 20px;
     background-size: cover; /* Use background images */
     background-position: center; /* Center the background images */
+    text-decoration: none;
 }
 
 .banner-text {
